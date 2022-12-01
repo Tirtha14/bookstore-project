@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="image-container">
+        <img [src]="book.imageUrl" alt="Book Image">
+    </div>
+    <div class="main-content">
+        {{book | json }}
+        <h3>{{ book.title }}</h3>
+        <h3>{{ book.author }}</h3>
+
+
+        <div>
+            <p>Description</p>
+            <p>{{book.description}</p>
+        </div>
+
+
+        <p>Price : {{book.price | currency: "INR"}}</p>
+
+        <button mat-button > <a [href]="book.buyLink" target="_blank">BUY at {{book.price | currency:"INR"}}</a>Buy on Amazon</button>
+
+    </div>
+
+</div>

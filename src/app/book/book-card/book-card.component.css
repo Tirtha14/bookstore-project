@@ -1,0 +1,28 @@
+.example-card{
+    /* max-width: 220px;
+    height: 370px; */
+    max-width: 300px;
+    height:400;
+    border: 1px solid black;
+}
+
+.example-header-image{
+    background-image: url("https://material.angular.io/assets/img/examples/shiba2.jpg");
+    background-size: cover;
+}
+.book-image{
+    height: 52%;
+}
+.mat-mdc-card-content{
+
+    height: 15%;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+  }
+
+  

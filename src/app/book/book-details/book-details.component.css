@@ -1,0 +1,23 @@
+.container{
+    --header-height: 70px;
+    height:calc(100vh - --header-height);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-container{
+    height: 100%;
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.main-container{
+    height: 100%;
+    flex: 80%;
+    padding: 20px;
+
+}
